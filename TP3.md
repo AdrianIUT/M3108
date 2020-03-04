@@ -30,3 +30,18 @@ Je vois sur les graphes une barre
 Je clique sur le graphe en question et je vois que c'est mon traffic. Mais je ne vois que mon traffic. 
 
 ![Screenshot](nfsem.PNG)
+
+Je crée ensuite les groupes.
+
+Pour le channel avec le port 80, j'ai mis comme ip de destination l'ip de ma VM (qui contient nfsem). 
+
+J'ai mis un autre channel sans filtre avec tout le monde comme source. 
+
+![Screenshot](channel.PNG)
+
+Mais je ne vois aucun flux. ALors que je devrais au moins voir le flux du channel "ALL"
+
+![Screenshot](nope.PNG)
+
+
+
