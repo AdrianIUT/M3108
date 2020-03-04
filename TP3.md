@@ -43,5 +43,17 @@ Mais je ne vois aucun flux. ALors que je devrais au moins voir le flux du channe
 
 ![Screenshot](nope.PNG)
 
+Le grand Pouchou configure mon GNS3
 
+Je commence la configuration de mon routeur
 
+```interface FastEthernet0/0
+ ip address dhcp
+ duplex auto
+ speed auto !
+interface FastEthernet0/1
+ ip address 172.18.255.254 255.255.0.0
+ duplex auto
+ speed auto ```
+
+J'arrive à ping la patte du routeur vers le "cloud"
