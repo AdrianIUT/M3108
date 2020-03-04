@@ -29,4 +29,4 @@ Je rentre dans le navigateur ```10.214.0.116:6080/nfsen```
 Je vois sur les graphes une barre 
 Je clique sur le graphe en question et je vois que c'est mon traffic. Mais je ne vois que mon traffic. 
 
-
+![Screenshot](nfsem.PNG)
